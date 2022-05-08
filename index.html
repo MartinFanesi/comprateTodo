@@ -16,57 +16,70 @@
         crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Comprate Todo 🏪</title>
 </head>
 
 <body>
-    <header class="head">
+    <header class="head animate__animated animate__slideInDown">
         <img class="logo"
             src="./img/Logo (Custom).png"
             alt="logo comprate todo">
         <div class="direccion">
             <p><span>VISITANOS EN CALLE 15 1786</span> <span> ENTRE 40 Y 38 </span><span>LAS TONINAS</span></p>
         </div>
-        
+
     </header>
     <main>
-        <section class="golosinas">
-            <img id="golosinas" class="imagenGolosinas"
+        <section class="golosinas animate__animated animate__slideInLeft">
+            <img id="proceso2"
+                class="imagenGolosinas proceso2 opacidad"
                 id="imagenGolosinas"
                 src="./img/golosinas/bananitaDolca.webp"
                 alt="gomitas alfajores galletitas">
             <p class="textoGolosinas">Golosinas</p>
 
         </section>
-        <section class="gaseosas">
+        <section class="gaseosas golosinas animate__animated animate__slideInRight">
             <p class="textoGaseosa">Gaseosas</p>
-            <img class="imagenGaseosa"
-                id="imagenGolosinas"
+            <img class="imagenGaseosa proceso opacidad"
+                id="proceso"
                 src="./img/gaseosa/7up.webp"
                 alt="gaseosas coca cola 7up">
 
         </section>
-        <section class="muchoMas">
-            <img class="imagenMuchoMas" src="./img/muchoMas/hipergas.webp"
+        <section class="muchoMas gaseosas golosinas animate__animated animate__slideInLeft">
+            <img class="imagenMuchoMas proceso3 opacidad"
+                id="proceso3"
+                src="./img/muchoMas/hipergas.webp"
                 alt="cigarrilllos gas envasado">
-<p class="textoMuchoMas">y mucho mas!</p>
+            <p class="textoMuchoMas">y mucho mas!</p>
         </section>
     </main>
     <footer class="footer">
         <p class="footerTexto">Nuestras Redes</p>
         <div class="footerRedes">
-        <a href="">
-        <img src="./img/icons/icons8-facebook-50.svg"
-            alt="Facebook"></a>
-        <img src="./img/icons/icons8-instagram-50.svg"
-            alt="Instagram">
-        <img src="./img/icons/icons8-tiktok-50.svg"
-            alt="tiktok">
-        <img src="./img/icons/icons8-whatsapp-50.svg"
-            alt="whatsapp">
+            <a href="https://www.facebook.com/C%C3%B3mprate-Todo-103023912405671/"
+                target="_blank">
+                <img src="./img/icons/icons8-facebook-50.svg"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com/compratetodotoninas/"
+                target="_blank"> <img src="./img/icons/icons8-instagram-50.svg"
+                    alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@compratetodo"
+                target="_blank">
+                <img src="./img/icons/icons8-tiktok-50.svg"
+                    alt="tiktok">
+            </a>
+            <a href="whatsapp://send?text=Escribe tu consulta! 🏪&phone=+5492246558986&abid=+5492246558986"
+                target="_blank">
+                <img src="./img/icons/icons8-whatsapp-50.svg"
+                    alt="whatsapp">
+            </a>
         </div>
     </footer>
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
