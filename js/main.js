@@ -10,7 +10,7 @@ setInterval(rotarImagenes2, 4000);
 var imagenes2 = new Array(
     ['./img/golosinas/bananitaDolca.webp'],
     ['./img/golosinas/beldent.webp'],
-    ['./img/golosinas/bonOBon.webp'],
+    ['./img/golosinas/bono.webp'],
     ['./img/golosinas/cadbury.webp'],
     ['./img/golosinas/cofler_block.webp'],
     ['./img/golosinas/gomitas_yumi.webp'],
